@@ -9,7 +9,7 @@ for ($i = -1; $i -lt ($arr.Length - 1); $i++) {
     $next = [int]::Parse($arr[$i + 1].ToString())
 
     if ($current -eq $next) {
-        $sum = $sum + $current
+        $sum += $current
     }
 }
 
